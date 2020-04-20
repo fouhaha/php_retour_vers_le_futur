@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "digit_font";
+    src: url('digital_7/digital-7 (italic).ttf');
+}
+
+body {
+    font-family: digit_font;
+    font-size: xx-large;
+}
+
+.div_body {
+
+    padding: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #404040;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    border-spacing: 10px;
+    background-color: #404040;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+}
+
+tr {
+    border-bottom: 2px solid black;
+    border-collapse: separate;
+}
+
+th {
+    font-size: 75%;
+    background-color: red;
+    color: white;
+}
+
+td {
+    font-size: 150%;
+
+}
+
+.td_black {
+    background-color: black;
+
+}
+
+.tbody_destination {
+    color: red;
+}
+
+.tbody_present {
+    color: green;
+}
+
+th, td {
+    border: 1px solid black;
+    margin: 100px;
+    text-align: center
+}
+
+.AM-PM {
+    background-color: #404040;
+    color: white;
+    font-size: 60%;
+    border: none;
+}
+
+.AM-PM p {
+    background-color: red;
+}
+
+.location_time {
+    font-size: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+}
+
+.td_surrounding {
+    border: none;
+}
+
+
+td p {
+    background-color: #404040;
+}
+
+th span, td span {
+    font-size: xx-large;
+}
+
+.flash_red {
+    color: red;
+}
+
+.flash_green {
+    color: green;
+}
